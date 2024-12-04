@@ -7,7 +7,7 @@ import './style/app.scss';
 
 const App: React.FC = () => {
   return (
-    <Router basename="/test-product">
+    <Router>
       <Routes>
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/products/:id" element={<ProductDetailsPage />} />
